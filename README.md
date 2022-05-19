@@ -17,12 +17,15 @@ Related Theory  Concept:
 • Calculation of Activation: 
 1.	The activation level of an input is determined by the instance presented to the network. 
 2.	The activation level oj of a hidden and output unit is determined. 
+
 • Weight training: 
 1.	Start at the output units and work backward to the hidden layer recursively and adjust weights. 
 2.	The weight change is completed. 
 3.	The error gradient is given by: 
+
 a.	For the output units. 
 b.	For the hidden units. 
+
 4.	Repeat iterations until convergence in term of the selected error criterion. An iteration includes presenting an instance, calculating activation and modifying weights. 
 
 ## Algorithm

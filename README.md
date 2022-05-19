@@ -13,6 +13,7 @@ Related Theory  Concept:
  Algorithm for ANN Backpropagation: 
 • Weight initialization: 
         Set all weights and node thresholds to small random numbers. Note that the node threshold is the negative of the weight from the bias unit(whose activation level is fixed at 1). 
+
 • Calculation of Activation: 
 1.	The activation level of an input is determined by the instance presented to the network. 
 2.	The activation level oj of a hidden and output unit is determined. 

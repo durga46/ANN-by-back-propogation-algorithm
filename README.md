@@ -41,12 +41,14 @@ b.	For the hidden units.
 
 6.Updating Weights
 ## Program:
-```
+```python
 /*
 Program to implement ANN by back propagation algorithm.
 Developed by   : DurgaDevi P
 RegisterNumber :  212220230015
 */
+```
+```python
 import numpy as np
 X=np.array(([2,9],[1,5],[3,6]),dtype=float)
 y=np.array(([92],[86],[89]),dtype=float)
